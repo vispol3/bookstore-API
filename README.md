@@ -42,7 +42,7 @@ This project implements full cycle of managing books and orders and users author
 | **POST** | /api/orders/ | Create new order | Authenticated |
 
 **Users**
-| **Method** | **Endpoint** | | **Description** | **Permissions** |
+| **Method** | **Endpoint** | **Description** | **Permissions** |
 | :--- | :--- | :--- | :--- |
 | **GET** | /api/users/ | List all users | Admin |
 | **GET** | /api/users/{user_id}/ | View user details | Admin |
