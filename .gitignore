@@ -1,4 +1,5 @@
-venv-linux/
+venv_linux/
+.venv_linux/
 .env
 __pycache__/
 .vscode/
