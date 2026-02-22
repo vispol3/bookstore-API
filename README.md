@@ -19,14 +19,14 @@ This project implements full cycle of managing books and orders and users author
 
 **Authentication (Djoser+JWT)**
 | **Method** | **Endpoint** | **Description** |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | **POST** | /api/auth/users/ | Register new user |
 | **POST** | /api/auth/jwt/create/ | Login (get tokens) |
 | **GET** | /api/auth/users/me/ | Get current user |
 
 **Books**
 | **Method** | **Endpoint** | **Description** | **Permissions** |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | **GET** | /api/books/ | List all books | AllowAny |
 | **GET** | /api/books/{book_id} | Get book by ID | AllowAny |
 | **POST** | /api/books/ | Add new book | Admin |
@@ -35,7 +35,7 @@ This project implements full cycle of managing books and orders and users author
 
 **Orders**
 | **Method** | **Endpoint** | **Description** | **Permissions** |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | **GET** | /api/orders/ | List all orders | Admin |
 | **GET** | /api/orders/ | List users orders | Authenticated |
 | **GET** | /api/orders/{id} | Get order details | Admin/Owner |
@@ -43,7 +43,7 @@ This project implements full cycle of managing books and orders and users author
 
 **Users**
 | **Method** | **Endpoint** | | **Description** | **Permissions** |
-| :--- | :--- |
+| :--- | :--- | :--- |
 | **GET** | /api/users/ | List all users | Admin |
 | **GET** | /api/users/{user_id}/ | View user details | Admin |
 | **DELETE** | /api/users/{user_Id}/ | Delete user | Admin |
